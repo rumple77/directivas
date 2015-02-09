@@ -1,7 +1,7 @@
 angular.module('directivaSimple' , [])
 	.controller('Controlador', function ($scope){
 		$scope.texto1 = {titulo: 'Elemento ',
-						subtitulo: 'template desde archivo html, texto 1'}
+						subtitulo: 'cambios para git desde archivo html, texto 1'}
 		$scope.texto2 = {titulo: 'Directiva',
 						subtitulo: 'template desde archivo html, texto 2'}						
 	})
